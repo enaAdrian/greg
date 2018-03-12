@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>Kancelaria Radcowska</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  </head>
+  <body>
+  <h1 ng-controller="KancelariaRadcowska">{{message}}</h1>
+  <script type="text/javascript">
+    angular.module('app', []).controller('KancelariaRadcowska',
+    function($scope){
+      $scope.message="Kancelaria Radcowska"
+    })
+  </script>
+  </body>
+</html>
